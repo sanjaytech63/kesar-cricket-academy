@@ -7,6 +7,7 @@ import { ThemeToggle } from '@/components/ui/theme-toggle';
 import { heroLinks } from '@/constants/data';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -21,9 +22,9 @@ export function Navbar() {
 
   return (
     <header className={cn('sticky top-0 z-50 transition-all duration-500', isScrolled ? 'backdrop-blur-xl bg-slate-950/95 shadow-lg shadow-slate-950/30' : 'bg-slate-950/80')}>
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <Link href="/" className="text-lg font-semibold tracking-wide text-white">
-          Kesar Cricket Academy
+         <Image src="/images/logo.png" alt="Kesar Academy Logo" width={120} height={100} className="mr-2 inline-block object-contain" />
         </Link>
 
         <nav className="hidden items-center gap-6 md:flex">
