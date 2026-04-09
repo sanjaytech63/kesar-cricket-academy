@@ -18,7 +18,7 @@ export function Footer() {
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.28em] text-slate-500">Contact</p>
-            <p className="mt-2 text-sm">+91 98765 43210</p>
+            <p className="mt-2 text-sm">+91 9828236523</p>
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.28em] text-slate-500">Connect</p>

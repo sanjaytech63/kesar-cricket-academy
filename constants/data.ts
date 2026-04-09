@@ -52,7 +52,7 @@ export const facilityHighlights: FacilityItem[] = [
     title: "Premium Practice Ground",
     description:
       "A lush, tournament-grade turf perfect for batting and fielding development.",
-    image: "/images/img4.jpg",
+    image: "/images/ground.jpg",
     accent: "from-emerald-500/80",
   },
   {
@@ -84,7 +84,7 @@ export const facilityHighlights: FacilityItem[] = [
   {
     title: "Strength & Fitness",
     description: "Tailored cricket fitness training for endurance and power.",
-    image: "/images/ground.jpg",
+    image: "/images/img4.jpg",
     accent: "from-emerald-600/70",
   },
 ];
@@ -146,5 +146,5 @@ export const galleryImages = [
 export const contactDetails = [
   { icon: MapPin, label: "Address", value: "Sikar Road, Jaipur, Rajasthan" },
   { icon: ShieldCheck, label: "Office Hours", value: "Mon - Sat, 7 AM - 8 PM" },
-  { icon: MessageCircle, label: "Phone", value: "+91 98765 43210" },
+  { icon: MessageCircle, label: "Phone", value: "+91 9828236523" },
 ];
